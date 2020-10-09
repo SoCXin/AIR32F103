@@ -1,0 +1,37 @@
+{
+    "type":"MCU",
+    "name":"AIR32F103",
+    "title": "luatos AIR32F103 MCU",
+    "description":"luatos MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M4",
+        "Fmax":216,
+        "DMIPS": 160,
+        "CoreMark": 240
+    },
+    "manufacturer": {
+        "vendor":"luatos",
+        "homepage":"https://www.luatos.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/AIR32F103.git"
+    },
+    "version":"1.0.0",
+    "series":["AIR32F103"],
+    "package":["LQFP64","LQFP48"],
+    "peripheral": ["CAN","ADC","USART","SPI","I2C"],
+    "temp": [-40,105],
+    "volt": [2.4,3.6],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M4",
+        "luatos",
+        "CAN","ADC","I2C","SPI","USART"
+    ]
+}
+
